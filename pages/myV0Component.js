@@ -15,7 +15,7 @@ export default function Component() {
         Answer a few questions and we'll suggest the best hosting platform for you.
       </p>
       <form className="space-y-8">
-        <div className="space-y-2">
+        <div className="space-y-2 text-white">
           <Label htmlFor="question1">What is your budget?</Label>
           <Select>
             <SelectTrigger>
