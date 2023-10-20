@@ -22,40 +22,40 @@ export default function Component() {
               <SelectValue placeholder="Select your budget" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="low">Low</SelectItem>
-              <SelectItem value="medium">Medium</SelectItem>
-              <SelectItem value="high">High</SelectItem>
+              <SelectItem value="low">60,000 a year</SelectItem>
+              <SelectItem value="medium">100,00 a year</SelectItem>
+              <SelectItem value="high">150,000 a year</SelectItem>
             </SelectContent>
           </Select>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="question2">What is your technical expertise?</Label>
+          <Label htmlFor="question2">What is the main problem you are seeking to resolve?</Label>
           <Select>
             <SelectTrigger>
-              <SelectValue placeholder="Select your expertise level" />
+              <SelectValue placeholder="Select the highest priority" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="beginner">Beginner</SelectItem>
-              <SelectItem value="intermediate">Intermediate</SelectItem>
-              <SelectItem value="expert">Expert</SelectItem>
+              <SelectItem value="beginner">Reduce Build and Deployment Times</SelectItem>
+              <SelectItem value="intermediate">Increase Developer Velocity</SelectItem>
+              <SelectItem value="expert">Reduce Infrastructure Maint</SelectItem>
             </SelectContent>
           </Select>
         </div>
         <div className="space-y-2">
-          <Label htmlFor="question3">What is your primary need?</Label>
+          <Label htmlFor="question3">What is your industry type?</Label>
           <Select>
             <SelectTrigger>
-              <SelectValue placeholder="Select your primary need" />
+              <SelectValue placeholder="Select your Industry" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="blog">Blog</SelectItem>
+              <SelectItem value="blog">Ad Tech/MarTech</SelectItem>
               <SelectItem value="ecommerce">E-commerce</SelectItem>
-              <SelectItem value="portfolio">Portfolio</SelectItem>
-              <SelectItem value="business">Business</SelectItem>
+              <SelectItem value="portfolio">Software/SaaS</SelectItem>
+              <SelectItem value="business">Agency</SelectItem>
             </SelectContent>
           </Select>
         </div>
-        <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
+        <Button className="w-full bg-blue-950 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
           Find My Hosting Platform
         </Button>
       </form>
@@ -69,16 +69,16 @@ export default function Component() {
             <img
               alt="Hosting Platform Logo"
               height="200"
-              src="/placeholder.svg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vercel_logo_black.svg/2560px-Vercel_logo_black.svg.png"
               style={{
-                aspectRatio: "200/200",
+                // aspectRatio: "200/200",
                 objectFit: "cover",
               }}
               width="200"
             />
-            <CardTitle className="text-2xl text-center my-4">Hosting Platform Name</CardTitle>
+            <CardTitle className="text-2xl text-center my-4">Vercel Frontend Cloud</CardTitle>
             <CardDescription className="text-center mb-4">
-              A brief description about why this hosting platform is recommended for the user.
+              Vercel is the best option because you are looking to reduce your infra, future proof your tech stack, and you want to go composable.
             </CardDescription>
             <div className="text-center">
               <Button
