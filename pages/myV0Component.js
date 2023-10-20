@@ -9,13 +9,13 @@ import { CardTitle, CardDescription, Card } from "@/components/ui/card"
 
 export default function Component() {
   return (
-    <div className="container mx-auto p-6 bg-white dark:bg-gray-800">
+    <div className="container mx-auto p-6 bg-gradient-to-r from-teal-200 to-teal-600 dark:bg-gray-950">
       <h1 className="text-4xl font-bold mb-4 text-center">Find Your Perfect Hosting Platform</h1>
       <p className="text-xl text-center mb-10 text-gray-600 dark:text-gray-300">
         Answer a few questions and we'll suggest the best hosting platform for you.
       </p>
       <form className="space-y-8">
-        <div className="space-y-2 text-white">
+        <div className="space-y-2 dark:text-white">
           <Label htmlFor="question1">What is your budget?</Label>
           <Select>
             <SelectTrigger>
@@ -28,7 +28,7 @@ export default function Component() {
             </SelectContent>
           </Select>
         </div>
-        <div className="space-y-2">
+        <div className="space-y-2 dark:text-white">
           <Label htmlFor="question2">What is the main problem you are seeking to resolve?</Label>
           <Select>
             <SelectTrigger>
@@ -41,7 +41,7 @@ export default function Component() {
             </SelectContent>
           </Select>
         </div>
-        <div className="space-y-2">
+        <div className="space-y-2 dark:text-white">
           <Label htmlFor="question3">What is your industry type?</Label>
           <Select>
             <SelectTrigger>
