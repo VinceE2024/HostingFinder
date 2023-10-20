@@ -21,7 +21,7 @@ export default function Component() {
             <SelectTrigger>
               <SelectValue placeholder="Select your budget" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-white">
               <SelectItem value="low">60,000 a year</SelectItem>
               <SelectItem value="medium">100,00 a year</SelectItem>
               <SelectItem value="high">150,000 a year</SelectItem>
@@ -34,7 +34,7 @@ export default function Component() {
             <SelectTrigger>
               <SelectValue placeholder="Select the highest priority" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-white">
               <SelectItem value="beginner">Reduce Build and Deployment Times</SelectItem>
               <SelectItem value="intermediate">Increase Developer Velocity</SelectItem>
               <SelectItem value="expert">Reduce Infrastructure Maint</SelectItem>
@@ -47,7 +47,7 @@ export default function Component() {
             <SelectTrigger>
               <SelectValue placeholder="Select your Industry" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-white">
               <SelectItem value="blog">Ad Tech/MarTech</SelectItem>
               <SelectItem value="ecommerce">E-commerce</SelectItem>
               <SelectItem value="portfolio">Software/SaaS</SelectItem>
