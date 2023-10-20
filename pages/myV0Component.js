@@ -69,9 +69,9 @@ export default function Component() {
             <img
               alt="Hosting Platform Logo"
               height="200"
-              src="https://repository-images.githubusercontent.com/659798237/9a6acdfe-6f48-47a7-9420-08047878569c"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vercel_logo_black.svg/2560px-Vercel_logo_black.svg.png"
               style={{
-                aspectRatio: "200/200",
+                // aspectRatio: "200/200",
                 objectFit: "cover",
               }}
               width="200"
