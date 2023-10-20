@@ -55,7 +55,7 @@ export default function Component() {
             </SelectContent>
           </Select>
         </div>
-        <Button className="w-full bg-blue-200 hover:bg-blue-50 text-white font-bold py-2 px-4 rounded" type="submit">
+        <Button className="w-full bg-blue-950 hover:bg-blue-50 text-white font-bold py-2 px-4 rounded" type="submit">
           Find My Hosting Platform
         </Button>
       </form>
