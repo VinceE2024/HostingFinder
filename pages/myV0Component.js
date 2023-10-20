@@ -11,7 +11,7 @@ export default function Component() {
   return (
     <div className="container mx-auto p-6 bg-gradient-to-r from-slate-900 via-cyan-600 to-pink-700 dark:bg-gray-950">
       <h1 className="text-4xl font-bold mb-4 text-center">Find Your Perfect Hosting Platform</h1>
-      <p className="text-xl text-center mb-10 text-gray-600 dark:text-gray-300">
+      <p className="text-xl text-center mb-10 text-gray-50 dark:text-gray-300">
         Answer a few questions and we'll suggest the best hosting platform for you.
       </p>
       <form className="space-y-8">
@@ -61,7 +61,7 @@ export default function Component() {
       </form>
       <div className="mt-10">
         <h2 className="text-3xl font-bold text-center">Recommended Hosting Platform</h2>
-        <p className="text-xl text-center mt-2 text-gray-600 dark:text-gray-300">
+        <p className="text-xl text-center mt-2 text-gray-50 dark:text-gray-300">
           Based on your responses, we recommend:
         </p>
         <div className="flex justify-center items-center mt-10">
