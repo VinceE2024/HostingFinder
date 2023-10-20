@@ -69,7 +69,7 @@ export default function Component() {
             <img
               alt="Hosting Platform Logo"
               height="200"
-              src="/placeholder.svg"
+              src="https://repository-images.githubusercontent.com/659798237/9a6acdfe-6f48-47a7-9420-08047878569c"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
