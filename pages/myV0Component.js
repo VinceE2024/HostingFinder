@@ -55,7 +55,7 @@ export default function Component() {
             </SelectContent>
           </Select>
         </div>
-        <Button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
+        <Button className="w-full bg-blue-950 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
           Find My Hosting Platform
         </Button>
       </form>
@@ -76,9 +76,9 @@ export default function Component() {
               }}
               width="200"
             />
-            <CardTitle className="text-2xl text-center my-4">Hosting Platform Name</CardTitle>
+            <CardTitle className="text-2xl text-center my-4">Vercel Front End Cloud</CardTitle>
             <CardDescription className="text-center mb-4">
-              A brief description about why this hosting platform is recommended for the user.
+              Vercel is the best option because you are looking to reduce your infra, future proof your tech stack, and you want to go composable.
             </CardDescription>
             <div className="text-center">
               <Button
